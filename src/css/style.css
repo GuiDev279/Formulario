@@ -1,0 +1,84 @@
+body{
+    background-image: url(/src/imagens/bg-repeat.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ajuda{
+    width: 300px;
+    height: 111px;
+    color: #FFFFFF;
+}
+
+.ajuda .title{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.ajuda .descricao{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top:11px;
+}
+
+
+#formulario{
+    margin: 12px 50px 12px;
+    display: flex;
+    flex-direction: column ;
+    width: 340px;
+    height: 360px;
+    background-color:  #FFFFFF;
+}
+
+#formulario .info{
+    width: 298px;
+    height: 36px;
+    margin-top: 20px;
+    margin-left: 21px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+#formulario .info.mensagem{
+    height: 100px;
+}
+
+#formulario .campo{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+#formulario .btn{
+    margin-top: 20px;
+    height: 42px;
+    border: none;
+    background-color:  #3CCC87;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.mensagem-de-erro{
+    font-size: 8px;
+    color:   #F52E2E;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.borda-vermelha {
+  border: 2px solid red !important;
+}
+
+.borda-verde{
+    border: 2px solid green !important;
+}
